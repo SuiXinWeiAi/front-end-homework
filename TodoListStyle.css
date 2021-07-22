@@ -1,0 +1,103 @@
+body
+{
+    background:linear-gradient( to bottom,#e66465, #9198e5);
+}
+.Todonav
+{
+    width: 700px;
+    height:800px;
+    background-color: white;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 20px;
+    margin : auto;
+    overflow: auto;
+}
+form
+{
+    height:50px;
+    width: 450px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#inputTodo
+{
+    width:380px;
+    height:40px;
+    font-size:25px;
+    margin:5px;
+    float:left;
+}
+#submit_button
+{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    background-color:#9198e5;
+    color: white;
+    border:solid;
+    float: right;
+}
+.listSpan {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    text-align: center;
+    line-height: 31px;
+    background: #9198e5;
+}
+.todoList li
+{
+    padding:0 5px;
+    margin:5px auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left:3px solid #9198e5;
+
+    list-style-type: none;
+    width:450px;
+    height:40px;
+    background-color:rgb(236, 236, 236);
+    line-height: 50px;
+}
+.content
+{
+    width: 420px;
+    height: 37px;
+    color: black;
+    font-size: 25px;
+    background: rgb(236, 236, 236);
+    line-height:37px;
+    border: none;
+}
+.Todo
+{
+    position: relative;
+    float: left;
+}
+.todoList
+{
+    position: relative;
+    float: left;
+}
+.todoNav h1
+{
+    margin:auto;
+}
+.todoList ul
+{
+    width: 600px;
+    margin:auto;
+}
+.foot
+{
+    float: right;
+}
+.clean-all
+{
+    float: right;
+}

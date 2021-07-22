@@ -1,0 +1,43 @@
+<!DOCTYPE heml>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="TodoListStyle.css">
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+</head>
+
+<body>
+    <div class="Todonav">
+        <h1>Todo list</h1>
+        <div class="clean-all">
+            <a style="color: #000000;" href="javascript:clear()">clear</a>
+        </div>
+        <form id="form" action='javascript:postaction()' method='post'>
+            <input type="text" name="todoList" id="inputTodo" placeholder="键入代办事项" required="required"
+                autocomplete="off">
+            <input type="submit" name="submit_button" id="submit_button" value="+">
+        </form>
+        <div class="Todo">
+            <div class="todoList">
+                <ul id="todoList">
+                    <!--动态修改-->
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="foot">
+        <p>Author:19050300010wxj</p>
+    </div>
+</body>
+
+<script type="text/javascript" src="jquery-3.6.0.js"></script>
+<script type="text/javascript" src="TodoList.js"></script>
+
+</html>
